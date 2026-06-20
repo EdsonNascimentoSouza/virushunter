@@ -150,45 +150,45 @@ class Fase2(Fase):
 
             Plataforma(
                 0,
-                800,
+                825,
                 1800,
-                100
+                70
             ),
 
             # AUXILIAR
 
             Plataforma(
-                250,
-                550,
-                250,
-                40
+                250, #posição em x
+                550, #posição em y
+                250, #largura /comprimento
+                20 # altura
             ),
 
             # CENTRAL
 
             Plataforma(
                 650,
-                600,
-                500,
-                40
+                570,
+                400,
+                20
             ),
 
             # DOWNLOADS
 
             Plataforma(
-                1150,
-                450,
-                500,
-                40
+                1050,
+                498,
+                730,
+                20
             ),
 
             # DOCUMENTOS
 
             Plataforma(
-                150,
-                350,
+                170,
+                450,
                 550,
-                40
+                20
             )
 
         ]
@@ -202,7 +202,7 @@ class Fase2(Fase):
         self.driver = DriverImpressora(
 
             420,
-            270
+            388
 
         )
 
@@ -224,8 +224,8 @@ class Fase2(Fase):
             # DOCUMENTOS
 
             Virus(
-                220,
-                280,
+                220, #posição em x
+                388, #posição em y
                 180,
                 450,
                 ARMA_PEDRA,
@@ -234,7 +234,7 @@ class Fase2(Fase):
 
             Virus(
                 520,
-                280,
+                388,
                 350,
                 650,
                 ARMA_PEDRA,
@@ -245,7 +245,7 @@ class Fase2(Fase):
 
             Virus(
                 1180,
-                380,
+                434,
                 1150,
                 1300,
                 ARMA_PEDRA,
@@ -254,7 +254,7 @@ class Fase2(Fase):
 
             Virus(
                 1260,
-                380,
+                434,
                 1200,
                 1400,
                 ARMA_PEDRA,
@@ -263,7 +263,7 @@ class Fase2(Fase):
 
             Virus(
                 1340,
-                380,
+                434,
                 1250,
                 1500,
                 ARMA_PEDRA,
@@ -272,7 +272,7 @@ class Fase2(Fase):
 
             Virus(
                 1420,
-                380,
+                434,
                 1300,
                 1550,
                 ARMA_PEDRA,
@@ -281,7 +281,7 @@ class Fase2(Fase):
 
             Virus(
                 1500,
-                380,
+                434,
                 1400,
                 1600,
                 ARMA_PEDRA,
@@ -290,7 +290,7 @@ class Fase2(Fase):
 
             Virus(
                 1580,
-                380,
+                434,
                 1450,
                 1650,
                 ARMA_PEDRA,
