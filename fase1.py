@@ -108,7 +108,7 @@ class Fase1(Fase):
     # Chão
     Plataforma(
         0, 800,
-        1350, 30,
+        1350, 100,
         "assets/plataforms/hd_mec.png"
     ),
 
