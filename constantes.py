@@ -10,7 +10,7 @@
 LARGURA_TELA = 1800
 ALTURA_TELA = 900
 
-FPS = 30
+FPS = 70
 
 TITULO_JOGO = "Virus Hunter"
 
